@@ -26,7 +26,7 @@ app.post("/codeready_send_mail",  (req, res) => {
             secure: false, 
             auth: {
                 user: "bulbul.infograins@gmail.com", 
-                pass: "BulBul@123" 
+                pass: "pass" 
                
             },
             tls: { rejectUnauthorized: false }
